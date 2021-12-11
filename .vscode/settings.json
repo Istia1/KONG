@@ -1,0 +1,11 @@
+{
+  "powermode.enabled": true,
+  "powermode.enableShake": false,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "git.ignoreLimitWarning": true,
+  
+}
