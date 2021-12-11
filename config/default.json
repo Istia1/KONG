@@ -1,0 +1,19 @@
+{
+  "mode": "test",
+  "binance": {
+    "live": {
+      "apiKey": "",
+      "secretKey": ""
+    },
+    "test": {
+      "apiKey": "",
+      "secretKey": ""
+    }
+  },
+  "slack" : {
+    "enabled" : true,
+    "webhookUrl" : "",
+    "channel": "",
+    "username": ""
+  }
+}
