@@ -9,14 +9,13 @@ const moment = require("moment");
 const symbol = "ethusdt";
 
 const startAutoBot = async () => {
-
   // const query = "insert into user(user_id, is_admin, ip_address,name ) values ('aflhzv',1,'127.0.0.1','kkong');"
 
-  // const res = helpers.mysql.query(query,() => {
-    
+  // const res = helpers.mysql.query(query,() => { 
+
   // });
   // console.log(res);
-
+  
   console.info( await helpers.binance.futuresAccount() );
   // const obj = await order.getPositionedOrder(helpers.binance, symbol);
   // global.quantity = obj.positionAmt;
@@ -70,7 +69,6 @@ const startAutoBot = async () => {
         positions: [ [Object], [Object] ]
       }
     }
-   * 
    * 
    */
   // const res1 = await helpers.binance.futuresAccount();
